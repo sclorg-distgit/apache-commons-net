@@ -7,7 +7,7 @@
 
 Name:           %{?scl_prefix}apache-%{short_name}
 Version:        3.6
-Release:        1.1%{?dist}
+Release:        1.2%{?dist}
 Summary:        Internet protocol suite Java library
 License:        ASL 2.0
 URL:            http://commons.apache.org/%{base_name}/
@@ -59,6 +59,9 @@ rm src/test/java/org/apache/commons/net/tftp/TFTPServerPathTest.java
 %license LICENSE.txt NOTICE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 3.6-1.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 3.6-1.1
 - Automated package import and SCL-ization
 
